@@ -8,10 +8,10 @@ import br.com.sisestoque.models.Cartorio;
 
 public interface ICartorioRepository extends JpaRepository<Cartorio, Integer>{
 	
-	List<Cartorio> findAll();
-	
-	List<Cartorio> findByNumero();
-	
-	List<Cartorio> findByMunicipio();
+//	List<Cartorio> findAll();
+//	
+//	List<Cartorio> findByNumero();
+//	
+//	List<Cartorio> findByMunicipio();
 
 }
